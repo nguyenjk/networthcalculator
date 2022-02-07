@@ -1,4 +1,4 @@
-# networthcalculator
+# Net Worth Calculator
 
 This is the web client and server application demo. This application is designed to be simple calculator where user can modify the row or change the currency and get immediate calculation.
 
