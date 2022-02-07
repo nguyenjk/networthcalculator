@@ -45,9 +45,7 @@ interface LinkItemProps {
 }
 const LinkItems: Array<LinkItemProps> = [
   { name: 'Home', icon: FiHome, link: '/' },
-  { name: 'Populate', icon: FiTrendingUp, link: '' },
-  { name: 'Learn More', icon: FiCompass, link: '' },
-  { name: 'Share', icon: FiStar, link: '' },
+  { name: 'Populate', icon: FiTrendingUp, link: '/calculator' },
 ];
 
 export default function SidebarWithHeader({
