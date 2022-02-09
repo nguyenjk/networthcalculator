@@ -30,3 +30,38 @@ yarn start:dev
 
 The service need to run on port 3001 before the webclient start.
 
+## Overall Design of the application
+
+The application contain two main components. The backend and and Webclient. 
+
+![overral](./docs/images/networthcalculator.png)
+
+### Web Client
+
+This application designed to be responsive with the help of Chakra lib. The application using nextjs framework to build the foundation. The web client includes api and static files. 
+
+1. Static Files are the pages. There are home page and calculator page. Inadditon to the pages, there are components factor that being separated in each individual reusable component. 
+    - Components
+        - Container
+        - Heros
+        - EditableTable
+        - SideBarWithHeader
+    - Pages
+        - Home page
+        - Calculator
+2. API: this is server side api running as middleware to communicate with server side. 
+
+### Server
+
+The application is design using nestjs which is the express framwork for nodejs. The application has simple module which is used to interact with the web client frontend. The application bootstrap with all the neccessary component to validate input payload and  exception filter.
+
+- Application Middleware
+    - Pipeline
+    - validator
+    - Exception Filter
+- Application Module
+    - Controller: control the endpoint
+    - Service: The business logic live here. It also talks to ExchangeAPI to get real time exchage rate.
+
+
+
