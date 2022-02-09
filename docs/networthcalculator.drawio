@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T19:52:16.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zaWdbjtMy5fDrmlY85ql" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T19:52:39.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="HsnLx5buGfFV7KU9gOM3" version="16.5.4" type="github">
   <diagram id="xciSy4QITh2-hr6PKNjF" name="Page-1">
     <mxGraphModel dx="2276" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="72216ZQHOvZ9OeDvA5Sk-15" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#82b366;fillColor=#d5e8d4;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="190" width="620" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="72216ZQHOvZ9OeDvA5Sk-55" value="Region" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#d6b656;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;dashed=1;" vertex="1" parent="72216ZQHOvZ9OeDvA5Sk-15">
+        <mxCell id="72216ZQHOvZ9OeDvA5Sk-55" value="Region" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#A50040;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;dashed=1;fontColor=#ffffff;" vertex="1" parent="72216ZQHOvZ9OeDvA5Sk-15">
           <mxGeometry x="-10" y="-70" width="630" height="650" as="geometry" />
         </mxCell>
         <mxCell id="72216ZQHOvZ9OeDvA5Sk-42" value="Cognito" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;" vertex="1" parent="72216ZQHOvZ9OeDvA5Sk-55">
